@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Swagat</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width">
+        <script>
+            // Picture element HTML5 shiv
+            document.createElement( "picture" );
+        </script>
+        <script src="https://cdn.rawgit.com/scottjehl/picturefill/master/dist/picturefill.min.js" async></script>
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="wrapper">
+                <h1 class="logo">Swagat</h1>
+                <nav>
+                    <h2>Main Navigation</h2>
+                    <div id="burger-nav"></div>
+                    <ul>
+                        <li><a href="#" class="current">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Special Occasions</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div id="main-banner">
+            <picture>
+                <source srcset="images/banner-s.jpg" media="(max-width: 480px)">
+                <source srcset="images/banner-m.jpg" media="(max-width: 768px)">
+                <img srcset="images/banner.jpg" alt="banner">
+            </picture> 
+        </div>
+        
+        <main class="wrapper">
+        
+            <section id="selling-points">
+                
+                <ul>
+                    <li>
+                        <img src="images/icon-1.png" alt="selling point">
+                        <h3>Chillies</h3>
+                        <p>Spicy or non spicy -choice is yours. But a little spice is good for yor health.</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-2.png" alt="selling point">
+                        <h3>Lassi</h3>
+                        <p>Traditional Indian drink made with milk and fruit. A rare gem.</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-3.png" alt="selling point">
+                        <h3>Kabab</h3>
+                        <p>A large collection of hot kababs at your table is a great deal.</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-4.png" alt="selling point">
+                        <h3>Curry</h3>
+                        <p>The best among the rest with different spices and herbs. Non-veg or veg - we have them all. </p>
+                    </li>
+                </ul>
+                
+            </section>
+            
+            <section id="latest-speciality">
+                <h2>Our Latest Specialities</h3>
+                <ul>
+                    <li>
+                        <img src="images/snap-1.jpg" alt="speciality">
+                        <h3>Sizzlers</h3>
+                        <p class="tags">Veg, Meat, Fish</p>
+                        <p>Enjoy hot Indian sizzlers just out of the kitchen with friends and family.</p>
+                    </li>
+                    <li>
+                        <img src="images/snap-2.jpg" alt="speciality">
+                        <h3>Samosa</h3>
+                        <p class="tags">Veg</p>
+                        <p>A samosa is a baked dish with a savoury filling, such as spiced potatoes, onions, peas and lentils.</p>
+                    </li>
+                    <li>
+                        <img src="images/snap-3.jpg" alt="speciality">
+                        <h3>Jalebi</h3>
+                        <p class="tags">Sweet, Dessert</p>
+                        <p>It is made by deep-frying maida flour batter circular shapes, which are then soaked in sugar syrup.</p>
+                    </li>
+                </ul>
+            </section>
+        
+        </main>
+        
+        <div id="quote">
+            <blockquote>Food for the body is not enough. There must be food for the soul. </blockquote>
+        </div>
+        
+        <footer>
+            <div class="wrapper">
+                <ul>
+                    <li><h4>Get In Touch</h4></li>
+                    <li>Book a Table, Special occasions, Special Requests or enquiries.</li>
+                    <li>Street 21</li>
+                    <li>Park Plaza, Pluto</li>
+                    <li>9022 20 20 20</li>
+                    <li>support@swagat.com</li>
+                </ul>
+                <ul>
+                    <li><h4>Twitter</h4></li>
+                    <li class="tw">Connect with us in Twitter.</li>
+                    <li class="tw">Following sounds fun.</li>
+                    <li class="tw">We are happy to get reveiws.</li>
+                </ul>
+                <ul>
+                    <li><h4>Recent Reviews</h4></li>
+                    <li>Amazing, Lively, Romantic. <br />Pluto Times, 12.07.2016</li>
+                    <li>Different, Tasty, Exciting. <br />Raddler, 12.07.2016</li>
+                    <li>Classic affordable Indian dishes.  <br />Pluto News, 13.07.2016</li>
+                </ul>
+                <ul>
+                    <li><h4>About Us</h4></li>
+                    <li>A family run restaturant was opened two years ago to redefine Indian cusisine.</li>
+                    <li>Chef Jey Ke prepares lavish dishes inspired by the Indian cuisine, where fish, meat and game ingredients are typically cooked in a Tandoor oven.</li>
+                </ul>
+                <div id="copyright">&copy; 2016 Swagat. All rights reserved.</div>
+            </div>
+        </footer>
+        
+    </body>
+    
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="menu.js"></script>
+
+</html>
